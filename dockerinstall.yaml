@@ -1,6 +1,6 @@
 ---
 -name: ping check
- hosts: 192.168.12.4
+ hosts: all
  tasks:
      -name: ping run
       ping:
