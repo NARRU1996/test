@@ -1,0 +1,7 @@
+---
+-name: ping check
+ hosts: 192.168.12.4
+ tasks:
+     -name: ping run
+      ping:
+...
