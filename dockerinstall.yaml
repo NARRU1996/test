@@ -1,7 +1,7 @@
 ---
--name: ping check
- hosts: all
- tasks:
-     -name: ping run
-      ping:
+- name: ping check
+  hosts: all
+  tasks:
+      - name: ping run
+        ping:
 ...
